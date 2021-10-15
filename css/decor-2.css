@@ -1,0 +1,26 @@
+.decor-2 {
+  min-height: 70vh;
+  background: url("../img/decor-2.JPG");
+  background-position: center;
+  background-position-y: 70%;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decor-2 h1 {
+  color: var(--clr-light);
+  font-family: var(--font-decor);
+  font-weight: 300;
+  font-size: 4rem;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .decor-2 h1 {
+    font-size: 3rem;
+  }
+}
