@@ -14,6 +14,9 @@
     />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" />
 
@@ -54,7 +57,7 @@
 
     <section class="our-story">
       <div class="container">
-        <div class="story-text">
+        <div class="story-text" data-aos="fade-up">
           <h2>Discover Our Story</h2>
           <p>
             We’ve been opened ever since 2019 and since then, we have always
@@ -64,7 +67,7 @@
           </p>
         </div>
 
-        <div class="story-img">
+        <div class="story-img" data-aos="fade-left">
           <img src="./img/our-story-1.JPG" alt="" />
           <img src="./img/our-story-2.JPG" alt="" />
         </div>
@@ -73,11 +76,11 @@
 
     <section class="decor-1">
       <div class="container">
-        <h2 class="decor-1-title">made with love</h2>
+        <h2 class="decor-1-title" data-aos="fade-up">made with love</h2>
       </div>
     </section>
 
-    <div class="decor-1-img">
+    <div class="decor-1-img" data-aos="fade-up">
       <div class="container">
         <img src="./img/decor-1/left.JPG" alt="" />
         <img src="./img/decor-1/center.JPG" alt="" />
@@ -87,7 +90,7 @@
 
     <section class="catalogue" id="catalogue">
       <div class="container">
-        <div class="catalogue-main-text">
+        <div class="catalogue-main-text" data-aos="fade-up">
           <h1 class="catalogue-title">Catalogue</h1>
           <h3 class="brownies">
             Le'Brow Fudgy Brownies ala Le'Sucree (20 x 20 cm)
@@ -98,30 +101,30 @@
         <div class="menu">
           <!-- <div class="menu-left"> -->
           <!-- <div class="menu-top"> -->
-          <div class="marshmallow">
+          <div class="marshmallow" data-aos="fade-right">
             <img src="./img/catalogue/marshmallow.jpg" alt="" />
             <p class="description">Marshmallow w/ Regal Cookies</p>
           </div>
 
-          <div class="nutella">
+          <div class="nutella" data-aos="fade-right">
             <img src="./img/catalogue/nutella.jpg" alt="" />
             <p class="description">Nutella w/ Oreo</p>
           </div>
           <!-- </div> -->
 
           <!-- <div class="menu-bottom"> -->
-          <div class="lotus">
+          <div class="lotus" data-aos="fade-right">
             <img src="./img/catalogue/lotus.JPG" alt="" />
             <p class="description">Lotus Biscoff w/ Lotus Biscuit</p>
           </div>
 
-          <div class="cornflakes">
+          <div class="cornflakes" data-aos="fade-right">
             <img src="./img/catalogue/cornflakes.jpg" alt="" />
             <p class="description">Cornflakes w/ Chocolate</p>
           </div>
           <!-- </div> -->
           <!-- </div> -->
-          <div class="all-in-one">
+          <div class="all-in-one" data-aos="fade-left">
             <img src="./img/catalogue/all-in-one.JPG" alt="" />
             <p class="description">All-in-one</p>
           </div>
@@ -130,8 +133,8 @@
     </section>
 
     <section class="advantages">
-      <h1 class="advantages-title">Why Our Brownies</h1>
-      <div class="container">
+      <h1 class="advantages-title" data-aos="fade-up">Why Our Brownies</h1>
+      <div class="container" data-aos="fade-up">
         <div class="quality">
           <img src="./img/advantages/ingredients.png" alt="" />
           <h1>High Quality Ingredients</h1>
@@ -160,8 +163,8 @@
     </section>
 
     <section class="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
-      <div class="container">
+      <h1 data-aos="fade-up">Testimonials</h1>
+      <div class="container" data-aos="fade-up">
         <div class="testi-top">
           <div class="anin">
             <img src="./img/testimony/anin.png" alt="" />
@@ -193,16 +196,16 @@
       </div>
     </section>
 
-    <section class="decor-2">
-      <h1>a brownie a day keeps the frownie away</h1>
+    <section class="decor-2" data-aos="fade-up">
+      <h1 data-aos="fade-up">a brownie a day keeps the frownie away</h1>
     </section>
 
     <section class="order" id="order">
-      <h1>How to Order</h1>
+      <h1 data-aos="fade-up">How to Order</h1>
       <div class="container">
         <div class="order-action">
-          <img src="./img/order.JPG" alt="" />
-          <div class="order-text">
+          <img data-aos="fade-right" src="./img/order.JPG" alt="" />
+          <div class="order-text" data-aos="fade-left">
             <p>
               If you want to place an order, or have any questions, reach us
               through WhatsApp at <strong>+62887437372970</strong>. <br />Or you
@@ -216,7 +219,7 @@
             >
           </div>
         </div>
-        <div class="notes">
+        <div class="notes" data-aos="fade-up">
           <h3>Notes</h3>
           <p>
             Orders made after 12:00 WIB will be processed and sent the next day
@@ -308,6 +311,12 @@
       <hr class="bottom-line" />
       <hr class="bottom-line" />
     </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
